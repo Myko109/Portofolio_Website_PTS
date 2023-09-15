@@ -9,6 +9,7 @@
 
 body {
     background: #121212;
+    overflow-x: hidden;
 }
 
 .header {
@@ -99,6 +100,7 @@ body {
     padding: 50px 8% 0;
     justify-content: space-between;
     overflow: hidden;
+    
 }
 
 .home-content {
@@ -194,17 +196,7 @@ body {
     transform: rotate(-45deg);
 }
 
-.home .rhombus2 {
-    position: absolute;
-    width: 700px;
-    height: 700px;
-    background: beige;
-    border-radius: 100%;
-    top: -25%;
-    right: -25%;
-    z-index: -1;
 
-}
 
 .about {
     padding-bottom: 8rem;
@@ -928,6 +920,7 @@ body {
     display: inline;
     right: 20px;
     bottom: 20px;
+    border: 3px solid beige;
     background-color: #1D84AD;
     width: 50px;
     height: 50px;
@@ -939,9 +932,8 @@ body {
 }
 
 #btnTop:hover {
-    background: transparent;
-    border: 3px solid #1D84AD;
-    color: beige;
+    background: beige;
+    color: #1D84AD;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
     opacity: 1;
