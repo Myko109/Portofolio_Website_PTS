@@ -922,6 +922,33 @@ body {
 }
 
 
+#btnTop {
+    position: fixed;
+    cursor: pointer;
+    display: inline;
+    right: 20px;
+    bottom: 20px;
+    background-color: #1D84AD;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    color: beige;
+    font-size: 20px;
+    z-index: 1;
+}
+
+#btnTop:hover {
+    background: transparent;
+    border: 3px solid #1D84AD;
+    color: beige;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    opacity: 1;
+}
+
+
+
 
 swiper-slide {
     text-align: center;
